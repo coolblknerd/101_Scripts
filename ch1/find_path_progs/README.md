@@ -10,6 +10,6 @@ ${var:0:1} --> shorthand notation that lets you specify substrings in a string, 
 
 $? is used to find the return value of the last executed command. If the last command exist, you will get the return value thrown by the last command, which should be 0 (default "success" return value). Otherwise, you will get a number other than 0. The number depends on the program.
 
->&2 redirects the standard output to stderr from preceding command. i.e. - `echo "hey" >&2`. By default, echo sends the output to standard out.
+/>&2 redirects the standard output to stderr from preceding command. i.e. - `echo "hey" >&2`. By default, echo sends the output to standard out.
 
 $# stores the number of command-line arguments that were passed to the shell program. 
