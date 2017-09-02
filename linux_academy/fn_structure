@@ -1,0 +1,12 @@
+#!/bin/bash
+# Function Structure
+
+# script/global variables
+cmdLine=$1
+
+# function definitions - start
+funcExample() {
+	echo "This is an example"
+}
+
+funcExample()
